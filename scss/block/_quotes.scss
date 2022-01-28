@@ -1,0 +1,33 @@
+.Lennon {
+    width: 100%;
+    height: auto;
+    background: url(/img/quote-background.png) ;
+    padding: 100px;
+    padding-left: 120px;
+}
+.quotes-text {
+    font-family: 'Lato';
+    font-size: 32px;
+    line-height: 1.5em;
+    color:var(--color-fonts-moon);
+    max-width: 735px;
+    letter-spacing: 4%;
+    position:relative;
+}
+.quotes-text::before {
+    content: '';
+    background: url(/icons/quote-icon.svg) no-repeat;
+    width: 100px;
+    height: 81px;
+    background-size: 95%;
+    position: absolute;
+    left: -59px;
+    top: -31px;
+}
+.quotes-author {
+    margin-top: 40px;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    letter-spacing: 8%;
+    color:var(--color-fonts-moon);
+}

@@ -1,0 +1,86 @@
+.box-flex-reviews {
+    margin-top: 150px;
+    display: flex;
+}
+.box-client {
+    width: 329px;
+    display: flex;
+    flex-direction: column;
+}
+.title-reviews {
+    @include title;
+    font-size: 40px;
+    span {
+        @include span;
+    }
+}
+.text-reviews {
+    margin-top: 20px;
+    @include text ;
+}
+.carusel {
+    width: 468px;
+    position: relative;
+}
+.carusel-item {
+    width: 468px;
+    height: auto;
+    padding: 51px 48px 48px 48px;
+    background: url(../../img/bgr-item1.png);
+}
+
+.text-client {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--color-fonts-moon);
+    opacity: 0.8;   
+}
+.author-client {
+    margin-top: 32px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    color: var(--color-fonts-moon);
+}
+.slick-prev  {
+    position: absolute;
+    bottom: 20px;
+    left:-190px;
+    border:none;
+    background-color: var(--bgr-body-moon);
+    img {
+        width: 50px;
+        height: auto;
+    }
+}
+.slick-next {
+    position: absolute;
+    bottom: 20px;
+    left:-100px;
+    border:none;
+    background-color: var(--bgr-body-moon);
+    img {
+        width: 50px;
+        height: auto;
+    }
+}
+.carusel-page {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+.text-page {
+    display: flex;
+    align-items: center;
+    @include title;
+    font-size: 24px;
+    span {
+        @include span;
+        font-size: 40px;
+    }  
+}

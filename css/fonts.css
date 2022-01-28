@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Playfair';
+    src: url('../fronts/PlayfairDisplay-Italic.eot');
+    src: url('../fronts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fronts/PlayfairDisplay-Italic.woff') format('woff'),
+    url('../fronts/PlayfairDisplay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Lato';
+    src: url('../fronts/Lato-Hairline.eot');
+    src: url('../fronts/Lato-Hairline.eot?#iefix') format('embedded-opentype'),
+    url('../fronts/Lato-Hairline.woff') format('woff'),
+    url('../fronts/Lato-Hairline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }

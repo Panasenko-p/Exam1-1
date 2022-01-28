@@ -1,0 +1,189 @@
+@media(max-width: 1140px) {
+    .card-brg {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        margin-top: 120px;
+    }
+    .trade-card {
+        margin: 0 auto;
+        
+    }
+    .trade-description {
+        position: relative;
+        margin:  0 auto; 
+        padding: 76px 0 76px 0;
+    }
+    .application {
+        input {
+            font-size: 18px;
+        }
+    }
+}
+@media(max-width: 992px) {
+    .title-abaut {
+        font-size: 45px;
+    }
+    .main {
+        margin: 0 -8px;
+        li {
+            margin: 0 8px;
+            a{
+                font-size: 14px;
+            }
+        }
+    }
+    .quotes-text {
+        font-size: 24px;
+    }
+    .quotes-author {
+        font-size: 16px;
+    }
+    .btn-trade {
+        width:240px;
+        height: 70px;
+    }
+    .carusel {
+        width: 320px;
+    }
+    .box-flex-reviews {
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .box-flex {
+        flex-direction: column;
+        padding-left: 100px;
+        padding-top: 60px;
+    }
+    .application {
+        margin-top: 50px;
+    }
+    .line-request {
+        margin-top: 70px;
+    }
+    .div{
+        font-size: 10px;
+    }
+    .development {
+        font-size: 10px;
+        a {
+            font-size: 10px;
+        }
+    }
+    .regulations {
+        a {
+            font-size: 10px;
+        }
+    }
+    .line-advant {
+        margin-top: 60px;
+    }
+    .trade-description {
+        width:100%;
+    }
+}
+@media(max-width: 768px){
+    .wrapper {
+        padding: 0 25px;
+    }
+    .main {
+        display: none;
+    }
+    .burger {
+        display: flex;
+        display: block;
+        margin-left: auto;
+    }
+    .burger-icon {
+        justify-self: end;
+    }
+    .title-abaut {
+        font-size: 35px;
+    }
+    .advant-item {
+        width: 100%;
+    }
+    .item-trade {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .trade-description {
+        padding-left: 80px;
+        height: auto;
+    }
+    .btn-trade {
+        margin-top: 50px;
+    }
+    .box-flex-reviews {
+        flex-wrap: wrap;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .box-client {
+        width:100%;
+    }
+    .carusel {
+        width: 100%;
+    }
+    .slick-prev  {
+        bottom: -50px;
+        right: 50%;
+    }
+    .slick-next {
+        bottom: -50px;
+        left: 50%;
+    }
+    .application {
+        width: 100%;
+    }
+    .box-flex {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .flex-box_footer{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .regulations {
+        display: flex;
+        flex-direction: column;
+    }
+    .development {
+        margin-top: 10px;
+    }
+    .vidio-box {
+        height: 352px;
+    }
+    .Lennon {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .quotes-text::before {
+        content: '';
+        background: url(/icons/quote-icon.svg) no-repeat;
+        width: 50px;
+        height: 40px;
+        background-size: 95%;
+        position: absolute;
+        left: -29px;
+        top: -15px;
+    }
+    .suptitle-finance {
+        font-size: 12px;
+    }
+    .info-finance {
+        width: 40%;
+    }
+    .info-description {
+        width: 60%;
+    }
+    .box-info {
+        margin-top: 20px;
+        left: 30px;
+    }
+    .text-info {
+        font-size: 12px;
+    }
+}

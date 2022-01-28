@@ -1,0 +1,62 @@
+
+.box-info {
+    margin-top: 54px;
+    max-width: 761px;
+    background: rgba(22, 25, 38, 0.8);
+    position: absolute;
+    top: 0;
+    right: 64px;
+    display: flex;
+    padding-top: 54px;
+    padding-bottom: 80px;
+    height: auto;
+}
+.info-finance {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.title-finance {
+    @include title
+}
+.suptitle-finance {
+    margin-top: 12px;
+    font-size: 20px;
+    color: var(--color-fonts-sun);
+    font-family: 'Lato';
+    opacity: 0.8
+}
+.line-info {
+    width: 68px;
+    height: 1px;
+    background:var(--color-span-moon);
+    margin: 50px auto 0 auto;
+}
+.info-img {
+    max-width:680px;
+    height: 568px;
+    img {
+        width:100%;
+        height: 100%;
+    }
+    
+}
+.mt41 {
+    margin-bottom: 41px;
+}
+.info-description {
+    width: 50%;
+}
+.info-description {
+    padding: 0 10px 0 0;
+}
+.text-info {
+    @include text
+}
+.btn-info {
+    margin-top: 52px;
+    @include btn
+}
+.btn-info::before {
+    @include shadow-btn
+}

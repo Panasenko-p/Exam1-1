@@ -1,0 +1,42 @@
+
+.about {
+    margin-top: 158px;
+    margin-bottom: 168px;
+    z-index: 50;
+}
+
+.scrin {
+    position: absolute;
+    z-index: -1;
+    top: -267px;
+    right: 0px;
+    img {
+        max-width: 1280px;
+        height: auto;
+    }
+}
+
+.title-abaut {
+    font-size: 44px;
+    color: var(--color-fonts-moon);
+    max-width: 566px;
+    font-family: 'Playfair Display';
+    span {
+        @include span
+    }
+}
+.text-about {
+    margin-top: 24px;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: var(--color-fonts-moon);
+    max-width: 465px;
+    opacity: 80%;
+}
+.btn-abaut {
+    margin-top: 46px;
+    @include btn;
+}
+.btn-abaut:before {
+   @include shadow-btn;
+}
