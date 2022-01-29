@@ -1,7 +1,7 @@
 .Lennon {
     width: 100%;
     height: auto;
-    background: url(img/quote-background.png) ;
+    background: url(../../img/quote-background.png);
     padding: 100px;
     padding-left: 120px;
 }
@@ -16,7 +16,7 @@
 }
 .quotes-text::before {
     content: '';
-    background: url(icons/quote-icon.svg) no-repeat;
+    background: url(../../icons/quote-icon.svg) no-repeat;
     width: 100px;
     height: 81px;
     background-size: 95%;
